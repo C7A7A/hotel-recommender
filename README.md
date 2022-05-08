@@ -1,6 +1,6 @@
-﻿Adam Mickiewicz University, faculty of mathematics and computer science
-author: Mateusz Czajka
-class: recommendation systems
+##### Adam Mickiewicz University, faculty of mathematics and computer science
+##### author: Mateusz Czajka
+##### class: recommendation systems
 
 # Content based hotel room recommender
 The purpose of this project was to:
