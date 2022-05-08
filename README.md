@@ -30,7 +30,8 @@ Original dataset was preprocessed to facilitate the work with data.
  - The original dataset: [hotel-recommender](https://github.com/C7A7A/hotel-recommender)/[data](https://github.com/C7A7A/hotel-recommender/tree/main/data)/[hotel_data](https://github.com/C7A7A/hotel-recommender/tree/main/data/hotel_data)/**hotel_data_original.csv**
  
  Part of **original dataset**
- TODO: IMG
+ 
+![Original dataset image](/screenshots/original_dataset.png?raw=true "Original dataset")
 
 
 ## Preprocessed dataset
@@ -40,7 +41,8 @@ Original dataset was preprocessed to facilitate the work with data.
  - Preprocessed dataset with **interactions** between **users** and **items** and selected data: [hotel-recommender](https://github.com/C7A7A/hotel-recommender)/[data](https://github.com/C7A7A/hotel-recommender/tree/main/data)/[hotel_data](https://github.com/C7A7A/hotel-recommender/tree/main/data/hotel_data)/**hotel_data_interactions_df.csv**
 
 Part of **interactions preprocessed dataset**
-TODO: IMG
+
+![Preprocessed dataset image](/screenshots/preprocessed_dataset.png?raw=true "Preprocessed dataset")
 
 # User Features
 I've decided to find **a vector** of the most **popular feature values** for **each user** and encode every feature with **one-hot encoding**
@@ -70,13 +72,15 @@ Solution with **Counter** is about 5 times faster than **value_counts** and a bi
 	    return res, list(dummies.columns)
 
 Part of **users_df**:
-TODO: IMG
+
+![Users dataframe Image](/screenshots/users_df.png?raw=true "Users dataframe")
 
 # Item Features
 Item features were designed the same way as user features (**one-hot encoding** using **get_dummies)**
 
 Part of **items_df**:
-TODO: IMG
+
+![Items dataframe image](/screenshots/items_df.png?raw=true "Items dataframe")
 
 # Content based recommender
 
@@ -152,11 +156,13 @@ returns DataFrame with user_id, item_id and score as columns returning n_recomme
 
 ---
 Sample **recommendations**
-TODO: IMG
+
+![Recommendations image](/screenshots/recommendations.png?raw=true "Recommendations")
 
 # Results
 Recommender **results** with different **parameters**
-TODO: IMG
+
+![Results image](/screenshots/results.png?raw=true "Results")
 
 I've been able to **beat Amazon recommender** with 2 ML models (**LinearRegression** and **RandomForest**)
 
